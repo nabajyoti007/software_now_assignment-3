@@ -41,7 +41,5 @@ SpotTheDifference/
 ├── alterations.py
 ├── game_state.py
 ├── README.md
-├── requirements.txt
-├── github_link.txt
 ├── sample_images/
 └── screenshots/
