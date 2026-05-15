@@ -7,7 +7,7 @@ from alterations import ColourShift, BlurPatch, BrightnessChange, InvertPatch
 class ImageProcessor:
     SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png", ".bmp")
 
-    def _init_(self, display_width: int = 520, display_height: int = 390) -> None:
+    def __init__(self, display_width: int = 520, display_height: int = 390) -> None:
         self.display_width = display_width
         self.display_height = display_height
         self.alterations = [
