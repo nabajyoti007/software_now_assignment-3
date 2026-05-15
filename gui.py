@@ -194,7 +194,8 @@ class GameApp(tk.Tk):                         # Main window
     def update_text(self) -> None:   # Update the counters
         self.left_label.config(text=f"Remaining: {self.state.left_diff()}")
         self.wrong_label.config(text=f"Mistakes: {self.state.wrong} / {self.state.max_wrong}")
-        # Image loading 
+    
+    # Image loading 
     def load_image(self) -> None:
         try:
             file_path = filedialog.askopenfilename(
